@@ -12,6 +12,6 @@ class HomeTest extends WebTestCase
         $client->request('GET', '/home');
 
         $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains('h1', 'Intégration Contsdfsdfinue avec Github Actions');
+        $this->assertSelectorTextContains('h1', 'Intégration Continue avec Github Actions!');
     }
 }
